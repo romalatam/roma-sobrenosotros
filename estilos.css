@@ -82,6 +82,15 @@ body{
 	margin-top: 0px;
 	}
 
+#instagram {
+	width:6%;
+	margin-left:30%;
+}
+
+#casita {
+	width:6%;
+}
+
 .divsample {
 	display:inline-block; padding-top: 15px; padding-bottom: 15px; margin-bottom: 40px; background: #b3cefd; width: 49%; text-align: center;
 }
