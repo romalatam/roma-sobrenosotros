@@ -18,7 +18,7 @@ body{
 .category_list .category_item{
 	display: block;
 	width: 90%;
-	padding: 15px 0;
+	padding: 15px;
 	margin-bottom: 20px;
 	background: #B3CEFD;
 
@@ -116,7 +116,7 @@ body{
 }
 
 h3 {
-	font-size: 60px;
+	font-size: 48px;
 	color: white;
 	
 }
