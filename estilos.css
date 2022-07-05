@@ -113,13 +113,15 @@ body{
 	margin-bottom: 15px;
 }
 
-.titulomivision {
+.h3 {
 	font-size: 20px;
+	color: white;
 	
 }
 
 .mivision {
 	font-size: 10px
+	color: white;
 }
 
 
