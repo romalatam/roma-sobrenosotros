@@ -96,7 +96,15 @@ body{
 }
 
 #sobrenosotros {
-	display:inline-block; padding-top: 15px; padding-bottom: 15px; margin-bottom: 40px; background: #FFBCAD; width: 100%; text-align: center;
+	display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    background: #FFBCAD;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
 }
 
 /* RESPONSIVE */
