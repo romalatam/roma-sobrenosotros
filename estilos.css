@@ -45,25 +45,53 @@ body{
 	}
 #roma {
 	display: inline-block;
-	margin-left: 41%;
+	margin-left: 43.5%;
 	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 120px;
 	}
 
 #instagram {
-	width:6%;
-	margin-left:30%;
+	width:5%;
+	margin-left:32.7%;
 }
 
 #casita {
-	width:6%;
+	width:5%;
 }
 
 .divsample {
-	display:inline-block; padding-top: 15px; padding-bottom: 15px; margin-bottom: 40px; background: #b3cefd; width: 49%; text-align: center;
+	display:inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #b3cefd;
+	width: 48.76%;
+	text-align: center;
+	margin: 0.5%;
+	text-family: "Trebuchet MS";
+}
+.azul {
+	margin: 2%;
+	margin-bottom: 4%;
+	margin-top: 0%;
 }
 .info {
 	color: white;
 	text-align: center;
+	text-decoration: none;
+	text-family: "Trebuchet MS";
+}
+
+#nina {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #b3cefd;
+	width: 100%;
+	text-align: center;
+	margin: 0%;
+	text-family: "Trebuchet MS";
+	color: white;
 	text-decoration: none;
 }
 
