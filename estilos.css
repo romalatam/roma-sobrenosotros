@@ -112,9 +112,10 @@ body{
 	margin: 30%;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	color: #7d7d7d;
 }
 
-.h3 {
+h3 {
 	font-size: 60px;
 	color: white;
 	
