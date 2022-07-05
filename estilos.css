@@ -72,7 +72,7 @@ body{
 }
 .azul {
 	margin: 2%;
-	margin-bottom: 4%;
+	margin-bottom: 0%;
 	margin-top: 0%;
 }
 .info {
@@ -99,13 +99,29 @@ body{
 	display: block;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     background: #FFBCAD;
     width: 100%;
     text-align: center;
     margin-left: 0;
     margin-top: 20px;
 }
+
+#sobrenosotras {
+	margin: 30%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.titulomivision {
+	font-size: 20px;
+	
+}
+
+.mivision {
+	font-size: 10px
+}
+
 
 /* RESPONSIVE */
 
