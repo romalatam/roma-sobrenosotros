@@ -131,17 +131,31 @@ h3 {
 
 
 /* RESPONSIVE */
-@media screen and (max-width: 2000px)
+@media screen and (max-width: 2000px) {
 .category_list .category_item {
     align-self: flex-start;
     width: 32%;
     font-size: 14px;
 }
-
-@media screen and (max-width: 700px)
+	
+.category_list {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.category_list {
+    width: 60%;
+    margin-left: 20%;
+}
+	
+}
+@media screen and (max-width: 700px) {
 .category_list .category_item {
     width: 100%;
     margin-bottom: 10px;
+}
+.category_list {
+    flex-direction: column;
+}
 }
 
 @media screen and (max-width: 600px){
