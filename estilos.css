@@ -61,39 +61,42 @@ body{
 	width:5%;
 }
 
-.divsample {
+..divsample {
 	display:inline-block;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background: #b3cefd;
-	width: 48.76%;
+	width: 19%;
 	text-align: center;
 	margin: 0.5%;
-	text-family: "Trebuchet MS";
+	margin-right: 0;
+	font-family: "Trebuchet MS";
 }
+
+.div3 {
+	display:inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #b3cefd;
+	width: 19%;
+	text-align: center;
+	margin: 0.5%;
+	margin-right: 0;
+	font-family: "Trebuchet MS";
+}
+
 .azul {
-	margin: 2%;
-	margin-bottom: 0%;
+	margin: 1.5%;
+	margin-bottom: 3%;
 	margin-top: 0%;
 }
+
 .info {
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	text-family: "Trebuchet MS";
-}
-
-#nina {
-	display: block;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	background: #b3cefd;
-	width: 100%;
-	text-align: center;
-	margin: 0%;
-	text-family: "Trebuchet MS";
-	color: white;
-	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-size: 17px;
 }
 
 #sobrenosotros {
@@ -118,7 +121,7 @@ body{
 h3 {
 	font-size: 48px;
 	color: white;
-	
+	font-family: "Trebuchet MS";
 }
 
 .mivision {
@@ -128,34 +131,6 @@ h3 {
 
 
 /* RESPONSIVE */
-
-@media screen and (max-width: 2000px){
-	.category_list{
-		width: 60%;
-		margin-left: 20%;
-	}
-
-	.category_list{
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-	.category_list .category_item{
-		align-self: flex-start;
-		width: 32%;
-		font-size: 14px;
-	}
-}
-
-@media screen and (max-width: 700px){
-	.category_list{
-		flex-direction: column;
-	}
-	.category_list .category_item{
-		width: 100%;
-		margin-bottom: 10px;
-	}
-}
 
 @media screen and (max-width: 600px){
 	#roma {
@@ -170,9 +145,17 @@ h3 {
 	}
 	.divsample {
 		margin: 0.15%;
+		width: 48.76%;
+		padding-top: 10px;
 	}
+	.div3 {
+		margin: 0.15%;
+		margin-top: 3px;
+		width: 32%;
+		font-size: 15px;
+	}
+	.info {font-size: 12px;}
 	#sobrenosotras {
 		margin: 10%;
 	}
-
 }
